@@ -1,0 +1,104 @@
+nav{
+    background-color: black;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  color: #fff;  
+  overflow-y: auto;
+  overflow-x: hidden;
+  }
+.progress-bar-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+.progress-bar {
+    height: 5px;
+    background-color: #fff;
+}
+.media-controls {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 15px;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.2);
+}
+.btn-secondary {
+    background-color: #555;
+    border-color: #555;
+    color: #fff;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+.btn-secondary:hover {
+    background-color: #444;
+    border-color: #444;
+}
+
+  .btn-secondary:focus {
+    box-shadow: none;
+  }
+  .media-controls .btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.Welcome{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  font-style: italic;
+  font-weight: 100;
+  margin: 10px;
+}
+
+.card-text{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.Logo{
+  border-radius: 10px;
+}
+
+.container{
+  margin: 10px;
+}
+
+button{
+  height: auto;
+  width: auto;
+
+}
+
+@media (min-width:320px) and (max-width: 425px){
+  .card{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    margin: 10px;
+    height: auto;
+    width: auto;
+  }
+
+  .Welcome{
+    text-align:center;
+  }
+}
+
+@media (min-width:426px) and (max-width: 768px){
+  .card{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+  } 
+}

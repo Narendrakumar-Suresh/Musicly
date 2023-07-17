@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mass songs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/logico.ico" type="image/x-icon">
+
+    <style>
+        .Logo{
+            border-radius: 10px;
+        }
+        .progress-bar-container {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 100;
+    }
+    .progress-bar {
+      height: 5px;
+      background-color: #fff;
+    }
+    .media-controls {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      padding: 15px;
+      box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.2);
+    }
+    .btn-secondary {
+      background-color: #555;
+      border-color: #555;
+      color: #fff;
+      margin-right: 10px;
+    }
+    .btn-secondary:hover {
+      background-color: #444;
+      border-color: #444;
+    }
+    .btn-secondary:focus {
+      box-shadow: none;
+    }
+    .media-controls .btn-group {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .vdo{
+      width: 100%;
+      height: auto;
+    }
+
+    </style>
+
+</head>
+<body>
+    <nav class="navbar navbar bg-dark navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class = "Logo"src="assets/logico.ico" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                Musicly
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Musicaly</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+    
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+    
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <!-- <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li> -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Playlists
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="favourites.html">Favourites</a></li>
+                    <li><a class="dropdown-item" href="mass.html">Mass Songs</a></li>
+                    <!-- <li>
+                      <hr class="dropdown-divider">
+                    </li> -->
+                    <!-- <li><a class="dropdown-item" href="#">Settings</a></li> --> 
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="playlist.html">Create Playlist</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="settings.html">Settings</a>
+                  </li>
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <video class="vdo" src="assets/SnapSave.io-Rick Roll (Different link   no ads).mp4" autoplay loop></video>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </body>
+</html>
